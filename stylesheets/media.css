@@ -1,0 +1,39 @@
+@media (max-width: 420px) {
+	body {
+		background: red;
+		color: blue;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.main-photo {
+		float: none;
+		width: 100%;
+	}
+
+	.about-niki {
+		width: 100%;
+	}
+
+	.dates {
+		display: block;
+		float: none;
+	}
+
+	.vertical-line,
+	.horizontal-line,
+	.dot {
+		display: none;
+	}
+
+	.event-description {
+		width: 100%;
+	}
+}
