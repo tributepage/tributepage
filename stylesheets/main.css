@@ -124,6 +124,10 @@ img {
 	padding-right: 10px;
 }
 
+.mobile-view {
+	display: none;
+}
+
 /* .horizontal-line {
 	background-image: url(../images/horizontal-line-2.png);
 	background-repeat: repeat-x;

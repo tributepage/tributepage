@@ -1,39 +1,47 @@
-@media (max-width: 420px) {
+@media (max-width: 800px) {
 	body {
-		background: red;
-		color: blue;
-		width: 100%;
+		background: #c32e2e;
+		color: blue#fff;
+		max-width: 100%;
 	}
 
 	h1 {
-		font-size: 80px;
+		font-size: 2em;
 	}
 
 	img {
-		width: 100%;
+		width: 260px;
+		max-width: 100%;
 	}
 
 	.main-photo {
 		float: none;
-		width: 100%;
+		max-width: 100%;
 	}
 
 	.about-niki {
-		width: 100%;
-	}
-
-	.dates {
-		display: block;
+		width: auto;
+		max-width: 100%;
 		float: none;
+		margin: 10px;
 	}
 
+	.mobile-view {
+		display: block;
+		border-bottom: 2px solid #FFA500;
+		margin-bottom: 10px;
+	}
+
+	.dates,
 	.vertical-line,
 	.horizontal-line,
-	.dot {
+	.dot,
+	.popup,
+	.event-description {
 		display: none;
 	}
 
-	.event-description {
-		width: 100%;
+	.footer {
+		position: static;
 	}
 }
